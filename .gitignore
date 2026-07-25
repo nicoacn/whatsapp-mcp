@@ -25,6 +25,9 @@ whatsapp-bridge/whatsapp-client
 
 # WhatsApp data (personal/sensitive)
 whatsapp-bridge/store/
+# Backups del store con timestamp (store.LIVE_BACKUP_*): mismos mensajes, misma
+# sensibilidad. La regla de arriba no los tapaba — hueco detectado 2026-07-25.
+whatsapp-bridge/store.*/
 
 # Python
 __pycache__/
